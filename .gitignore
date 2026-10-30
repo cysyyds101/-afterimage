@@ -1,0 +1,33 @@
+# build output
+build/
+dist/
+*.elf
+*.bin
+*.uf2
+
+# ESP-IDF / toolchain
+managed_components/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# rendered / exported video intermediates
+*.ppm
+*.y4m
+tmp_render/
+
+# editors & OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# never commit device credentials or Wi-Fi secrets
+secrets.h
+*.pem
+.env
