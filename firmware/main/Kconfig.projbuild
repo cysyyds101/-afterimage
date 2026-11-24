@@ -1,0 +1,35 @@
+menu "Whale Maid voice"
+
+config WHALE_VOICE_ENABLED
+    bool "Enable offline Hi ESP response and push-to-talk"
+    default y
+    help
+        Say Hi ESP for an offline wave and chime without Wi-Fi, then say
+        "hui shou", "tiao yi xia" or "shui jiao" within 6 seconds to drive
+        the wave, jump or sleep animation.
+        Hold BOOT to stream 16 kHz mono PCM audio to the configured bridge.
+        Touch remains available for changing the fixed character action.
+
+config WHALE_WIFI_SSID
+    string "Wi-Fi SSID"
+    default ""
+    depends on WHALE_VOICE_ENABLED
+
+config WHALE_WIFI_PASSWORD
+    string "Wi-Fi password"
+    default ""
+    depends on WHALE_VOICE_ENABLED
+
+config WHALE_MIC_GAIN_DB
+    int "Microphone gain (dB)"
+    range 0 45
+    default 30
+    depends on WHALE_VOICE_ENABLED
+
+config WHALE_SPEAKER_VOLUME
+    int "Speaker volume (0-100)"
+    range 0 100
+    default 65
+    depends on WHALE_VOICE_ENABLED
+
+endmenu

@@ -1,0 +1,20 @@
+[capture] 30s elapsed, 8091 bytes
+[capture] 60s elapsed, 8260 bytes
+[capture] 90s elapsed, 8429 bytes
+[capture] 120s elapsed, 8600 bytes
+[capture] 151s elapsed, 8770 bytes
+[capture] 181s elapsed, 9111 bytes
+[capture] 211s elapsed, 9282 bytes
+[capture] 241s elapsed, 9453 bytes
+[capture] 271s elapsed, 50778 bytes
+[capture] 301s elapsed, 59825 bytes
+[capture] 332s elapsed, 59994 bytes
+[capture] 362s elapsed, 68015 bytes
+[capture] 392s elapsed, 68184 bytes
+[capture] 422s elapsed, 68522 bytes
+[capture] 452s elapsed, 68693 bytes
+[capture] 482s elapsed, 68864 bytes
+[capture] 512s elapsed, 69035 bytes
+[capture] 542s elapsed, 69206 bytes
+[capture] 572s elapsed, 69548 bytes
+[capture] wrote 69719 bytes to firmware\p0-stability-600s.log

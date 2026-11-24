@@ -1,0 +1,20 @@
+[capture] 30s elapsed, 8091 bytes
+[capture] 60s elapsed, 8260 bytes
+[capture] 90s elapsed, 8429 bytes
+[capture] 120s elapsed, 8600 bytes
+[capture] 151s elapsed, 8771 bytes
+[capture] 181s elapsed, 9113 bytes
+[capture] 211s elapsed, 9284 bytes
+[capture] 241s elapsed, 9455 bytes
+[capture] 271s elapsed, 9626 bytes
+[capture] 301s elapsed, 9797 bytes
+[capture] 332s elapsed, 10139 bytes
+[capture] 362s elapsed, 18294 bytes
+[capture] 392s elapsed, 18463 bytes
+[capture] 422s elapsed, 18633 bytes
+[capture] 452s elapsed, 18972 bytes
+[capture] 482s elapsed, 19143 bytes
+[capture] 512s elapsed, 19314 bytes
+[capture] 542s elapsed, 19485 bytes
+[capture] 573s elapsed, 19827 bytes
+[capture] wrote 19998 bytes to firmware\p0-fixed-600s.log

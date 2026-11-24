@@ -1,0 +1,20 @@
+[capture] 30s elapsed, 8090 bytes
+[capture] 60s elapsed, 8259 bytes
+[capture] 90s elapsed, 8428 bytes
+[capture] 121s elapsed, 8599 bytes
+[capture] 151s elapsed, 8770 bytes
+[capture] 181s elapsed, 9112 bytes
+[capture] 211s elapsed, 9283 bytes
+[capture] 241s elapsed, 9454 bytes
+[capture] 271s elapsed, 9625 bytes
+[capture] 301s elapsed, 9796 bytes
+[capture] 331s elapsed, 10138 bytes
+[capture] 361s elapsed, 10309 bytes
+[capture] 391s elapsed, 10480 bytes
+[capture] 422s elapsed, 53163 bytes
+[capture] 452s elapsed, 55590 bytes
+[capture] 482s elapsed, 58642 bytes
+[capture] 512s elapsed, 58984 bytes
+[capture] 542s elapsed, 59324 bytes
+[capture] 572s elapsed, 59664 bytes
+[capture] wrote 60004 bytes to firmware\p0-verify-600s.log

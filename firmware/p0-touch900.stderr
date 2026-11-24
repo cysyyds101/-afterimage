@@ -1,0 +1,117 @@
+[capture] 30s -> wave
+[capture] 30s elapsed, 8295 bytes
+[capture] 40s -> jump
+[capture] 50s -> sleep
+[capture] 60s -> idle
+[capture] 60s elapsed, 10832 bytes
+[capture] 70s -> wake
+[capture] 80s -> wave
+[capture] 90s -> jump
+[capture] 90s elapsed, 12548 bytes
+[capture] 100s -> sleep
+[capture] 110s -> idle
+[capture] 120s -> wake
+[capture] 121s elapsed, 14178 bytes
+[capture] 130s -> wave
+[capture] 140s -> jump
+[capture] 150s -> sleep
+[capture] 151s elapsed, 16758 bytes
+[capture] 160s -> idle
+[capture] 170s -> wake
+[capture] 180s -> wave
+[capture] 181s elapsed, 18387 bytes
+[capture] 190s -> jump
+[capture] 200s -> sleep
+[capture] 210s -> idle
+[capture] 211s elapsed, 20798 bytes
+[capture] 220s -> wake
+[capture] 230s -> wave
+[capture] 240s -> jump
+[capture] 241s elapsed, 22511 bytes
+[capture] 250s -> sleep
+[capture] 260s -> idle
+[capture] 270s -> wake
+[capture] 271s elapsed, 23977 bytes
+[capture] 280s -> wave
+[capture] 290s -> jump
+[capture] 300s -> sleep
+[capture] 302s elapsed, 26208 bytes
+[capture] 310s -> idle
+[capture] 320s -> wake
+[capture] 330s -> wave
+[capture] 332s elapsed, 27889 bytes
+[capture] 340s -> jump
+[capture] 350s -> sleep
+[capture] 360s -> idle
+[capture] 362s elapsed, 29897 bytes
+[capture] 370s -> wake
+[capture] 380s -> wave
+[capture] 390s -> jump
+[capture] 392s elapsed, 32041 bytes
+[capture] 400s -> sleep
+[capture] 410s -> idle
+[capture] 420s -> wake
+[capture] 422s elapsed, 33330 bytes
+[capture] 430s -> wave
+[capture] 440s -> jump
+[capture] 450s -> sleep
+[capture] 452s elapsed, 35477 bytes
+[capture] 460s -> idle
+[capture] 470s -> wake
+[capture] 480s -> wave
+[capture] 482s elapsed, 37192 bytes
+[capture] 490s -> jump
+[capture] 500s -> sleep
+[capture] 510s -> idle
+[capture] 512s elapsed, 38738 bytes
+[capture] 520s -> wake
+[capture] 530s -> wave
+[capture] 540s -> jump
+[capture] 542s elapsed, 41657 bytes
+[capture] 550s -> sleep
+[capture] 560s -> idle
+[capture] 570s -> wake
+[capture] 572s elapsed, 43033 bytes
+[capture] 580s -> wave
+[capture] 590s -> jump
+[capture] 600s -> sleep
+[capture] 602s elapsed, 44925 bytes
+[capture] 610s -> idle
+[capture] 620s -> wake
+[capture] 630s -> wave
+[capture] 633s elapsed, 46468 bytes
+[capture] 640s -> jump
+[capture] 650s -> sleep
+[capture] 660s -> idle
+[capture] 663s elapsed, 48186 bytes
+[capture] 670s -> wake
+[capture] 680s -> wave
+[capture] 690s -> jump
+[capture] 693s elapsed, 51021 bytes
+[capture] 700s -> sleep
+[capture] 710s -> idle
+[capture] 720s -> wake
+[capture] 723s elapsed, 52395 bytes
+[capture] 730s -> wave
+[capture] 740s -> jump
+[capture] 750s -> sleep
+[capture] 753s elapsed, 54111 bytes
+[capture] 760s -> idle
+[capture] 770s -> wake
+[capture] 780s -> wave
+[capture] 783s elapsed, 55654 bytes
+[capture] 790s -> jump
+[capture] 800s -> sleep
+[capture] 810s -> idle
+[capture] 813s elapsed, 57287 bytes
+[capture] 820s -> wake
+[capture] 830s -> wave
+[capture] 840s -> jump
+[capture] 843s elapsed, 59692 bytes
+[capture] 850s -> sleep
+[capture] 860s -> idle
+[capture] 870s -> wake
+[capture] 874s elapsed, 61067 bytes
+[capture] 880s -> wave
+[capture] 890s -> jump
+[capture] wrote 62672 bytes to firmware\p0-touch-900s.log

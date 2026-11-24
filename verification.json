@@ -1,0 +1,182 @@
+{
+  "checks": [
+    "Master is RGBA with actual transparent and opaque pixels",
+    "32 baseline JPEG frames are 400x480 YUV420, each <128 KiB",
+    "All eight MP4/AVI files fully decode at 410x502, 20 fps",
+    "AVI loop durations match firmware timing",
+    "Motion exists in every action, all four corner pixels remain black",
+    "All frame assets fit in 8 MiB SPIFFS partition"
+  ],
+  "actions": [
+    {
+      "name": "idle",
+      "frame_step_mean_rgb": [
+        19.36,
+        18.59,
+        13.82,
+        16.84,
+        12.53,
+        9.47,
+        5.25,
+        6.92
+      ],
+      "videos": [
+        {
+          "file": "idle.mp4",
+          "codec_name": "h264",
+          "width": 410,
+          "height": 502,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "20/1",
+          "duration": "4.000000",
+          "nb_frames": "80"
+        },
+        {
+          "file": "idle.avi",
+          "codec_name": "mjpeg",
+          "width": 410,
+          "height": 502,
+          "pix_fmt": "yuvj420p",
+          "r_frame_rate": "20/1",
+          "duration": "2.000000",
+          "nb_frames": "40"
+        }
+      ]
+    },
+    {
+      "name": "wave",
+      "frame_step_mean_rgb": [
+        5.87,
+        6.9,
+        5.8,
+        6.73,
+        6.31,
+        6.45,
+        6.11,
+        7.21
+      ],
+      "videos": [
+        {
+          "file": "wave.mp4",
+          "codec_name": "h264",
+          "width": 410,
+          "height": 502,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "20/1",
+          "duration": "4.800000",
+          "nb_frames": "96"
+        },
+        {
+          "file": "wave.avi",
+          "codec_name": "mjpeg",
+          "width": 410,
+          "height": 502,
+          "pix_fmt": "yuvj420p",
+          "r_frame_rate": "20/1",
+          "duration": "1.200000",
+          "nb_frames": "24"
+        }
+      ]
+    },
+    {
+      "name": "jump",
+      "frame_step_mean_rgb": [
+        38.19,
+        43.06,
+        34.16,
+        28.29,
+        31.5,
+        41.92,
+        21.06,
+        14.64
+      ],
+      "videos": [
+        {
+          "file": "jump.mp4",
+          "codec_name": "h264",
+          "width": 410,
+          "height": 502,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "20/1",
+          "duration": "4.800000",
+          "nb_frames": "96"
+        },
+        {
+          "file": "jump.avi",
+          "codec_name": "mjpeg",
+          "width": 410,
+          "height": 502,
+          "pix_fmt": "yuvj420p",
+          "r_frame_rate": "20/1",
+          "duration": "1.200000",
+          "nb_frames": "24"
+        }
+      ]
+    },
+    {
+      "name": "sleep",
+      "frame_step_mean_rgb": [
+        14.06,
+        23.98,
+        21.75,
+        11.08,
+        29.26,
+        21.42,
+        8.0,
+        8.31
+      ],
+      "videos": [
+        {
+          "file": "sleep.mp4",
+          "codec_name": "h264",
+          "width": 410,
+          "height": 502,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "20/1",
+          "duration": "6.400000",
+          "nb_frames": "128"
+        },
+        {
+          "file": "sleep.avi",
+          "codec_name": "mjpeg",
+          "width": 410,
+          "height": 502,
+          "pix_fmt": "yuvj420p",
+          "r_frame_rate": "20/1",
+          "duration": "3.200000",
+          "nb_frames": "64"
+        }
+      ]
+    }
+  ],
+  "hardware_tested": "flash verification and 18-second boot-log observation only",
+  "frame_data_bytes": 1306653,
+  "firmware_build": {
+    "result": "passed",
+    "toolchain": "ESP-IDF 6.1",
+    "log": "firmware/build-final.log",
+    "hardware_flashed": true,
+    "flash_files": {
+      "0x0": "bootloader.bin",
+      "0x8000": "partition-table.bin",
+      "0x410000": "storage.bin",
+      "0x10000": "whale_maid.bin"
+    }
+  },
+  "device_flash": {
+    "date": "2026-11-05",
+    "port": "COM7",
+    "chip": "ESP32-S3",
+    "flash_mb": 32,
+    "psram_mb": 8,
+    "verified": true,
+    "boot_observation_seconds": 18,
+    "running_project": "whale_maid",
+    "psram_memory_test": "OK",
+    "lcd_initialization": "success",
+    "application_errors_observed": false,
+    "visual_and_physical_button_test": "not observed",
+    "flash_log": "release/flash-device.log",
+    "boot_log": "release/boot-device.log"
+  }
+}

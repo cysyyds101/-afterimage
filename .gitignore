@@ -4,17 +4,25 @@ dist/
 *.elf
 *.bin
 *.uf2
+firmware/build*/
+release/
+release-voice/
 
 # ESP-IDF / toolchain
 managed_components/
 sdkconfig
 sdkconfig.old
-dependencies.lock
+firmware/sdkconfig
+firmware/sdkconfig.voice-test.defaults
+firmware/*.sdkconfig
 
 # python
 __pycache__/
 *.pyc
 .venv/
+
+# node
+node_modules/
 
 # rendered / exported video intermediates
 *.ppm
@@ -31,3 +39,21 @@ Thumbs.db
 secrets.h
 *.pem
 .env
+*.dev.vars
+firmware/main/voice_defaults.h
+
+# personal runtime data (conversation memory, generated cards)
+voice-bridge/data/
+voice-bridge/overlay/*.jpg
+voice-bridge/overlay/*.png
+
+# logs
+*.log
+
+# local snapshots & bulk media
+*.zip
+videos/
+snapshots/
+
+# downloaded binaries
+*.exe
